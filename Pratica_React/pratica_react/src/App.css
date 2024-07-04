@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: greenyellow;
+  height: 90px;
+}
+.senaiimagem{
+  padding: 25px;
+  height: 30px;
+  width: 90px;
+}
+.headername{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 25px;
+}
+.divheader{
+  display: flex;
+}
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.clubes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clube {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+}
+
+.clube img {
+  width: 60px;
+  height: 60px;
+}
+
+.footer{
+  display: flex;
+  height: 50px;
+  background-color: greenyellow;
+  justify-content: center;
+
+}
